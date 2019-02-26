@@ -5,4 +5,8 @@ class Artist < ActiveRecord::Base
       self.songs.count
   end
 
+  def song_name
+    self.artist.name
+  end
+
 end
