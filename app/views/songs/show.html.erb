@@ -1,6 +1,6 @@
 <h1> My Song </h1>
 
-<h2> <%= link_to "#{@song.artist.name} -
+<h2> <%= link_to "#{@song.artist_name} -
 #{@song.title}", artist_path(@song.artist.id)
 
 if @song.artist.id %> </h2>
