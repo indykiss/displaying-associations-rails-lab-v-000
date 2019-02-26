@@ -48,4 +48,3 @@ class SongsController < ApplicationController
     params.require(:song).permit(:title)
   end
 end
-
